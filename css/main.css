@@ -1,0 +1,34 @@
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand>img {
+    height: 200%;
+    margin: -25%;
+    width: auto;
+}
+
+.footer {
+    background-color: #262626;
+    color: white;
+    text-align: center;
+}
+
+.sitemap>h4 {
+    line-height: 150%;
+}
+
+.address {
+    padding: 1em;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .sitemap {
+        text-align: left;
+    }
+
+    .address {
+        text-align: right;
+    }
+}

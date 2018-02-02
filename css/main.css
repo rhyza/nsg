@@ -2,9 +2,14 @@
     margin-top: -3vh;
     color: white;
     text-align: center;
+    color: white;
 }
 
-h1{
+.navbar-inverse {
+    background-color: #00487C;
+    color: white;
+}
+.navbar-inverse>a {
     color: white;
 }
 

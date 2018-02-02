@@ -5,6 +5,10 @@
     color: white;
     padding-top: 35vh;
     padding-bottom: 35vh;
+        background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center bottom;
 }
 
 .navbar-inverse {
@@ -23,10 +27,6 @@
 
 .header-home {
     background-image:url("../img/home.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    background-position: center bottom;
 }
 
 .footer {

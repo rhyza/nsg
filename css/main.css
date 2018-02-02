@@ -1,11 +1,24 @@
-.navbar-brand {
-    padding: 0px;
+.jumbotron {
+    margin-top: -3vh;
+    color: white;
+    text-align: center;
 }
 
-.navbar-brand>img {
+h1{
+    color: white;
+}
+
+.navbar-logo {
     height: 200%;
     margin: -25%;
     width: auto;
+}
+
+.header-home {
+    background-image:url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .footer {
@@ -31,4 +44,13 @@
     .address {
         text-align: right;
     }
+}
+
+/* Flexbox for Positioning */
+.flex-container {
+    display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }

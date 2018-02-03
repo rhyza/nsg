@@ -29,6 +29,13 @@
     background-position: center bottom;
 }
 
+.no-gutter {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: -10;
+  margin-left: -10;
+}
+
 .side-image-container {
     background-image:url("../img/home.jpg");
     background-repeat: no-repeat;
@@ -36,12 +43,11 @@
     color: white;
     background-position: center bottom;
     height: 40vh;
-    width: auto;
 }
 
 .carousel .item {
-  background-color: #00487C;
-  height: 40vh;
+    background-color: #00487C;
+    height: 40vh;
 }
 
 .footer {

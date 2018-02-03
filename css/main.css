@@ -1,3 +1,15 @@
+h1, h2, h5, .navbar-brand {
+    font-family: 'Spectral', serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: white;
+}
+
 .navbar-inverse {
     background-color: #00487C;
     color: white;
@@ -12,8 +24,16 @@
     width: auto;
 }
 
+.navbar-brand {
+    font-size: 1.8em;
+}
+
 .header-home {
     background-image:url("../img/home.jpg");
+}
+
+h1 {
+    text-shadow: 1px 1px 4px #404040;
 }
 
 .jumbotron {
@@ -21,8 +41,8 @@
     color: white;
     text-align: center;
     color: white;
-    padding-top: 35vh;
-    padding-bottom: 35vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -31,6 +51,14 @@
 
 .blurb {
     padding-top: 3em;
+}
+
+.blurb>h2 {
+    font-size: 2.5em;
+}
+
+.blurb>p {
+    font-size: 1.22em;
 }
 
 .no-gutter {
@@ -52,6 +80,10 @@
 .carousel .item {
     background-color: #00487C;
     height: 40vh;
+}
+
+h5 {
+    font-size: 1.1em;
 }
 
 .footer {

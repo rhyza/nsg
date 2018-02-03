@@ -41,11 +41,11 @@
 }
 
 .side-image-container {
-    background-image:url("../img/home.jpg");
+    background-image:url("../img/one_on_one.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    background-position: center bottom;
+    background-position: center center;
     height: 40vh;
 }
 

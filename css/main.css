@@ -34,10 +34,10 @@
 }
 
 .no-gutter {
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: -10;
-  margin-left: -10;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: -10;
+    margin-left: -10;
 }
 
 .side-image-container {
@@ -81,9 +81,12 @@
 
 /* Flexbox for Positioning */
 .flex-container {
+    display: flex;
     display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
 }

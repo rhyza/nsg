@@ -1,10 +1,12 @@
 h1, h2, h5, .navbar-brand {
     font-family: 'Spectral', "Palatino Linotype", Palatino, serif;
+    color: #02324f;
     text-decoration: none;
 }
 
 p {
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    color: #02324f;
 }
 
 a, a:focus, a:hover, a:-webkit-any-link {
@@ -12,11 +14,7 @@ a, a:focus, a:hover, a:-webkit-any-link {
   text-decoration: none;
 }
 
-.btn-lg {
-    border-radius: 22.5px;
-    background-color: #00B0F0;
-    border-color: #00B0F0;
-}
+/*** NAVBAR ***/
 
 .navbar-inverse {
     background-color: #00487C;
@@ -37,6 +35,8 @@ a, a:focus, a:hover, a:-webkit-any-link {
     margin: -25%;
     width: auto;
 }
+
+/*** COVER PHOTO  ***/
 
 .header-home {
     background-image:url("../img/home.jpg");
@@ -63,6 +63,8 @@ h1 {
     background-position: center bottom;
 }
 
+/*** PAGE TEXT ON WHITE BG ***/
+
 .blurb {
     padding-top: 3em;
 }
@@ -73,6 +75,12 @@ h1 {
 
 .blurb>p {
     font-size: 1.22em;
+}
+
+.btn-lg {
+    border-radius: 22.5px;
+    background-color: #00B0F0;
+    border-color: #00B0F0;
 }
 
 img.email-link {
@@ -86,6 +94,8 @@ a.email-link {
     color: #02324f;
     font-size: 1.5em;
 }
+
+/*** TESTIMONIALS ***/
 
 .no-gutter {
     padding-right: 0;
@@ -110,7 +120,10 @@ a.email-link {
 
 h5 {
     font-size: 1.1em;
+    color: white;
 }
+
+/*** FOOTER ***/
 
 .footer {
     background-color: #262626;
@@ -124,6 +137,10 @@ h5 {
 
 .address {
     padding: 1em;
+}
+
+.address>p {
+    color: white;
 }
 
 /* Small devices (tablets, 768px and up) */

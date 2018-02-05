@@ -42,6 +42,10 @@ a, a:focus, a:hover, a:-webkit-any-link {
     background-image:url("../img/home.jpg");
 }
 
+.header-about {
+    background-image:url("../img/about.jpg");
+}
+
 h1 {
     text-shadow: 1px 1px 4px #404040;
 }

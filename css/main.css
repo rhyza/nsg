@@ -1,13 +1,16 @@
 h1, h2, h5, .navbar-brand {
-    font-family: 'Spectral', serif;
+    font-family: 'Spectral', "Palatino Linotype", Palatino, serif;
+    text-decoration: none;
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
-a {
+a:hover, a:visited, a:link, a:active, a:focus {
+    all: unset;
     color: white;
+    text-decoration: none;
 }
 
 .navbar-inverse {

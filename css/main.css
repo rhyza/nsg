@@ -40,10 +40,17 @@ a, a:focus, a:hover, a:-webkit-any-link {
 
 .header-home {
     background-image:url("../img/home.jpg");
+    background-position: center bottom;
 }
 
 .header-about {
     background-image:url("../img/about.jpg");
+    background-position: center bottom;
+}
+
+.header-services {
+    background-image:url("../img/services.jpg");
+    background-position: center center;
 }
 
 h1 {
@@ -60,7 +67,6 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    background-position: center bottom;
 }
 
 /*** PAGE TEXT ON WHITE BG ***/

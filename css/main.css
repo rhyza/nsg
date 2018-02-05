@@ -71,6 +71,18 @@ h1 {
     font-size: 1.22em;
 }
 
+img.email-link {
+    max-height: 3.2em;
+    max-width: 3.2em;
+    margin: 1em;
+}
+
+a.email-link {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    color: #02324f;
+    font-size: 1.5em;
+}
+
 .no-gutter {
     padding-right: 0;
     padding-left: 0;

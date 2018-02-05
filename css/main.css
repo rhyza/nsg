@@ -63,7 +63,7 @@ h1 {
 }
 
 .jumbotron {
-    margin-top: -3vh;
+    margin-top: -3.5vh;
     color: white;
     text-align: center;
     color: white;
@@ -121,12 +121,12 @@ a.email-link {
     background-size: cover;
     color: white;
     background-position: center center;
-    height: 40vh;
+    height: 60vh;
 }
 
 .carousel .item {
     background-color: #00487C;
-    height: 40vh;
+    height: 60vh;
 }
 
 h5 {
@@ -162,6 +162,20 @@ h5 {
 
     .address {
         text-align: right;
+    }
+
+    .side-image-container {
+        background-image:url("../img/one_on_one.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        background-position: center center;
+        height: 40vh;
+    }
+
+    .carousel .item {
+        background-color: #00487C;
+        height: 40vh;
     }
 }
 

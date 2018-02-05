@@ -171,3 +171,7 @@ h5 {
     justify-content: center;
     height: 85%;
 }
+
+.list {
+    justify-content: flex-start !important;
+}

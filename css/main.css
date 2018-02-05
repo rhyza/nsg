@@ -54,6 +54,8 @@ a, a:focus, a:hover, a:-webkit-any-link {
 }
 
 .header-contact {
+    background-image:url("../img/contact.jpeg");
+    background-position: center bottom;
 }
 
 h1 {

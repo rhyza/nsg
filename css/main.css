@@ -81,14 +81,18 @@ h1 {
 /*** PAGE TEXT ON WHITE BG ***/
 
 .blurb {
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 .blurb>h2 {
-    font-size: 2.5em;
+    font-size: 2.25em;
 }
 
 .blurb>p {
+    font-size: 1.25em;
+}
+
+.blurb>ul {
     font-size: 1.25em;
 }
 
@@ -175,6 +179,14 @@ h5 {
     .navbar-inverse .navbar-brand {
         color: white;
         font-size: 1.8em;
+    }
+
+    .blurb {
+        padding-top: 3em;
+    }
+
+    .blurb>h2 {
+        font-size: 2.5em;
     }
 
     .side-image-container {

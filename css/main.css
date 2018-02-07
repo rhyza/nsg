@@ -126,13 +126,13 @@ h1 {
 img.email-link {
     max-height: 2.9em;
     max-width: 2.9em;
-    margin: 1em;
+    margin: .8em;
 }
 
 a.email-link {
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
     color: #02324f;
-    font-size: 1.4em;
+    font-size: 1.35em;
 }
 
 /*** TESTIMONIALS ***/
@@ -242,6 +242,25 @@ h5 {
 
     .address {
         text-align: right;
+    }
+}
+
+/* Extra extra small devices (portrait phones, less than 576px) */
+@media (max-width: 325px) {
+    .navbar-default .navbar-brand {
+        color: #00487C;
+        font-size: 1.1em;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: white;
+        font-size: 1.1em;
+    }
+
+    a.email-link {
+        font-family: 'Source Sans Pro', Helvetica, sans-serif;
+        color: #02324f;
+        font-size: 1.2em;
     }
 }
 

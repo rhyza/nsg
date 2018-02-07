@@ -185,14 +185,6 @@ h5 {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .sitemap {
-        text-align: left;
-    }
-
-    .address {
-        text-align: right;
-    }
-
     .navbar-default .navbar-brand {
         color: #00487C;
         font-size: 1.8em;
@@ -223,6 +215,14 @@ h5 {
     .carousel .item {
         background-color: #00487C;
         height: 40vh;
+    }
+
+    .sitemap {
+        text-align: left;
+    }
+
+    .address {
+        text-align: right;
     }
 }
 

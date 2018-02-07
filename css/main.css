@@ -218,11 +218,14 @@ h5 {
     }
 
     h5 {
+        font-size: 1.15em;
         color: white;
     }
 
     .sitemap {
         text-align: left;
+        padding-top: .8em;
+        padding-left: 2em;
     }
 
     .address {

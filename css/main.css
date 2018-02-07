@@ -245,7 +245,7 @@ h5 {
     }
 }
 
-/* Extra extra small devices (portrait phones, less than 576px) */
+/* Extra extra small devices (portrait phones, less than 325px) */
 @media (max-width: 325px) {
     .navbar-default .navbar-brand {
         color: #00487C;

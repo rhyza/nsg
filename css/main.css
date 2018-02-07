@@ -16,6 +16,23 @@ a, a:focus, a:hover, a:-webkit-any-link {
 
 /*** NAVBAR ***/
 
+.navbar-default {
+    color: #00487C;
+}
+
+.navbar-default .navbar-brand {
+    color: #00487C;
+    font-size: 1.25em;
+}
+
+.navbar-default .name {
+    margin-left: -1.5em;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #00487C;
+}
+
 .navbar-inverse {
     background-color: #00487C;
     color: white;
@@ -174,6 +191,11 @@ h5 {
 
     .address {
         text-align: right;
+    }
+
+    .navbar-default .navbar-brand {
+        color: #00487C;
+        font-size: 1.8em;
     }
 
     .navbar-inverse .navbar-brand {

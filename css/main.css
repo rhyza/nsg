@@ -52,7 +52,7 @@ a, a:focus, a:hover, a:-webkit-any-link {
 }
 
 .navbar-logo {
-    height: 200%;
+    height: 2em;
     margin: -25%;
     width: auto;
 }
@@ -191,6 +191,12 @@ h5 {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .navbar-logo {
+        height: 1.75em;
+        margin: -25%;
+        width: auto;
+    }
+
     .navbar-default .navbar-brand {
         color: #00487C;
         font-size: 1.8em;

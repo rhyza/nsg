@@ -175,12 +175,18 @@ h5 {
     line-height: 150%;
 }
 
+.sitemap>h4>a {
+    color: white;
+    text-decoration: none;
+}
+
 .address {
     padding: 1em;
 }
 
-.address>p {
+.address>p, .address>p>a, .address>small>a {
     color: white;
+    text-decoration: none;
 }
 
 /* Small devices (tablets, 768px and up) */

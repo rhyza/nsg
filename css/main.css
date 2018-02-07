@@ -124,15 +124,15 @@ h1 {
 }
 
 img.email-link {
-    max-height: 3.2em;
-    max-width: 3.2em;
+    max-height: 2.9em;
+    max-width: 2.9em;
     margin: 1em;
 }
 
 a.email-link {
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
     color: #02324f;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 /*** TESTIMONIALS ***/
